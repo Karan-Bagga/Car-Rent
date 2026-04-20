@@ -20,7 +20,7 @@ const ManageCars=()=>{
    
     return(
         <>
-            <div className="bg-dark text-white text-center py-3"><h1>Manage Cars Details</h1></div>
+            <div className="bg-dark text-white text-center py-3"><h2 className="text-color">Manage Cars Details</h2></div>
             <div className="container mt-5">
                 <Title title="Manage Cars" subTitle="View all listed cars,update their details or remove them from booking platform"/>
 

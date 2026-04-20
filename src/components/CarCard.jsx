@@ -33,7 +33,7 @@ const CarCard = ({ car }) => {
           </div>
 
           <div className="mt-3 d-flex gap-2">
-            <button className="btn btn-success btn-sm px-3">
+            <button className="btn btn-success text-black btn-sm px-3">
               Rent Now →
             </button>
             <button className="btn btn-outline-secondary btn-sm px-3">

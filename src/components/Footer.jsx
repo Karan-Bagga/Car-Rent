@@ -8,7 +8,7 @@ const Footer=()=>{
             <div className="container">
                 <div className="row gy-3">
                     <div className="col-lg-3">
-                        <h5 className="text-primary">CarRent</h5>
+                       <div className="fs-5">car<span className="text-info fs-5">Rent</span></div>
                         <p>Premium car rental service with a wide section of luxury and everyday vechicles for all your driving needs </p>
 
                         <div>

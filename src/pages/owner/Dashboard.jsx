@@ -33,7 +33,7 @@ const Dashboard =()=>{
         <>
         <div className="d-flex mb-3 bg-dark text-white">
             <div className="me-auto p-2">
-                <NavLink className="text-decoration-none text-white" to="/"><MdCarRental/>car <span className="text-primary fs-4">Rent</span></NavLink>
+                <NavLink className="text-decoration-none text-white" to="/"><MdCarRental/>car <span className="text-info fs-4">Rent</span></NavLink>
             </div>
             <div className="p-2 "><img src={user.image} alt=""  className="user-img"/></div>
             <div className="p-2">Welcome,{user.name}</div>
@@ -41,7 +41,7 @@ const Dashboard =()=>{
 
 
         <div className="container mt-5 p-5">
-            <div className="row justify-content-between">
+            <div className="row">
 
                 <div className="col-lg-6 text-secondary">
                     
@@ -69,15 +69,15 @@ const Dashboard =()=>{
 
 
                 </div>
-
-                <div className="col-lg-6 ">
-                    <div className="col-lg-6 ">
+                <div className="col-lg-2"></div>
+                <div className="col-lg-4">
+                    <div className="col-lg-12 ">
                         <div>
                             <div className="card text-bg-dark mb-3">
                                 <div className="card-header">Owner Add Car</div>
                                 <div className="card-body">
                                     <h5 className="card-title">
-                                       <NavLink  to="/owner/addcar" className="btn btn-primary ">Add Car </NavLink>
+                                       <NavLink  to="/owner/addcar" className="btn btn-info ">Add Car </NavLink>
                                     </h5>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ const Dashboard =()=>{
                                 <div className="card-header">Owner Manage Car</div>
                                 <div className="card-body">
                                     <h5 className="card-title">
-                                       <NavLink  to="/owner/managecars" className="btn btn-primary">Manage Cars </NavLink>
+                                       <NavLink  to="/owner/managecars" className="btn btn-info">Manage Cars </NavLink>
                                     </h5>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ const Dashboard =()=>{
                                 <div className="card-header">Owner Manage Bookings</div>
                                 <div className="card-body">
                                     <h5 className="card-title">
-                                       <NavLink  to="/owner/managebookings" className="btn btn-primary">Manage Bookings </NavLink>
+                                       <NavLink  to="/owner/managebookings" className="btn btn-info">Manage Bookings </NavLink>
                                     </h5>
                                 </div>
                             </div>

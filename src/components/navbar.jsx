@@ -9,7 +9,7 @@ const Navbar=()=>{
          <nav className="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark" >
 
             <div className="container-fluid">
-                <NavLink className="text-decoration-none text-white" to="/"><MdCarRental/>car <span className="text-primary fs-4">Rent</span></NavLink>
+                <NavLink className="text-decoration-none text-white" to="/"><MdCarRental/>car <span className="text-info fs-4">Rent</span></NavLink>
                  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -29,7 +29,7 @@ const Navbar=()=>{
                          </div>
 
                          <div className="d-flex my-1 mx-1">
-                            <button className="btn btn-primary" onClick={()=>navigate("/login")}>Login</button>
+                            <button className="btn btn-info" onClick={()=>navigate("/login")}>Login</button>
                          </div>
                     </div>
                 </div>

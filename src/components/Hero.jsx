@@ -7,12 +7,13 @@ const Hero=()=>{
         <>
         <div className="hero">
             <div className="hero-text">
-                <h1 className="text-success">
+                <h1 className="text-color">
                     Luxury Cars On Rent
                 </h1>
 
             </div>
-            <div className="row container mt-2">
+            
+            <div className="row container mt-2 ">
                 <div className="col-lg-3">
                     <select  className="form-select" value={pickupLocation} onChange={(e)=>setPickupLocation(e.target.value)}>
                         <option value="">Pickup Location</option>
@@ -34,7 +35,7 @@ const Hero=()=>{
                 </div>
 
                 <div className="col-lg-3">
-                    <button className="btn btn-primary">Search</button>
+                    <button className="btn btn-info">Search</button>
                 </div>
             </div>
         </div>

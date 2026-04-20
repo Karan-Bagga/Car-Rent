@@ -22,9 +22,11 @@ const AddCar=()=>{
     return(
         <>
 
-            <div className="bg-dark text-primary text-center py-3"><h1>Add Car Details</h1></div>
+            <div className="bg-dark text-color text-center py-3"><h2>Add Car Details</h2></div>
             <div className="container mt-5">
-                <Title title="Add New Car" subTitle="Fill in details to list  new car for booking"/>
+                <Title  className="text-color " title="Add New Car" />
+                <Title  subTitle="Fill in details to list  new car for booking"/>
+
 
             <form onSubmit={handleSubmit} className="car-form p-4 rounded">
                 {/* IMAGE UPLOAD */}

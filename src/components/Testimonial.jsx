@@ -5,7 +5,7 @@ const Testimonial=()=>{
     //   console.log(testimonials)
     return(
         <div className="mt-5 container">
-            <h2 className="text-center text-white">What Our Customers Say</h2>
+            <h2 className="text-center text-color">What Our Customers Say !</h2>
             <div className="container text-center mt-5">
                 <div className="row gy-3">
                     {

@@ -24,7 +24,7 @@ const FeaturedSection=()=>{
 
             <div className="mt-3">
                 <div className="d-grid gap-2 d-md-flex justify-content-md-center">
-                    <button className="btn btn-primary me-md-2" onClick={()=>navigate('/cars')}>Explore All Cars </button>
+                    <button className="btn btn-info me-md-2" onClick={()=>navigate('/cars')}>Explore All Cars </button>
                 </div>
             </div>
         </div>

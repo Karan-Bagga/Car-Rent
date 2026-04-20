@@ -1,7 +1,7 @@
 const Title=({title,subTitle})=>{
     return(
         <div className="text-center">
-            <h2>{title}</h2>
+            <h2 className="text-color">{title}</h2>
             <p>{subTitle}</p>
         </div>
     )
